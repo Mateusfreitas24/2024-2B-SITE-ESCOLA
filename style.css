@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+  :root{
+    --preto: #000000;
+    --azul-escuro: #14213d;
+    --cinza: #e5e5e5;
+  }
+
+
 
 
 .cabecalho{
@@ -14,7 +21,7 @@
 }
 
 .cabecalho-imagem{
- width:5% ;
+ width:5%;
 border-radius:100% ;
 margin: 1em;
 }
@@ -24,4 +31,23 @@ margin: 1em;
     color: white;
     margin-right: 1.5em;
     font-size: 1.5em;
+}
+
+  .escola{
+    background-color: rgba(139, 128, 128, 0.849);
+    color: black;
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    padding: 32px 0;
+
+  }
+
+.escola-texto-titulo{
+    padding: 24px 0;
+
+}
+.escola-imagem{
+    width: 25%;
+
 }
